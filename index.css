@@ -1,0 +1,87 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #10101f;
+  color: #fff;
+  border-radius: 10px;
+}
+
+h1{
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+}
+
+/* Conversion SECTION */
+
+.unit-container {
+  background-image: linear-gradient(
+0deg,
+hsl(15deg 100% 38%) 21%,
+hsl(329deg 100% 29%) 95%,
+hsl(260deg 68% 22%) 100%
+);
+  max-height: 300px;
+  margin: 0;
+  padding: 80px 0;
+  color: #fff;
+  text-align: center;
+  min-width: 600px;
+  /* border: royalblue solid 2px; */
+}
+
+.conversion-target {
+  font-size: 80px;
+  font-weight: bold;
+  min-width: 600px;
+  margin: 50px 0;
+  /* border: rebeccapurple solid 1px; */
+}
+
+button {
+  border: none;
+  box-shadow: 1px 1px 2px black;
+  padding: 10px 0;
+  margin-top: 30px;
+  color: white;
+  background-image: linear-gradient(
+  45deg,
+  hsl(140deg 29% 10%) 0%,
+  hsl(138deg 69% 20%) 60%,
+  hsl(124deg 69% 33%) 100%);
+  font-weight: bold;
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+
+
+/* Result SECTION */
+.result-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* border: #fff solid 1px; */
+}
+
+.conversion {
+  margin: 20px 5px;
+  min-width: 500px;
+  /* border: orange solid 1px; */
+}

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <section class="unit-container">
+            <h1>Metric/imperial unit conversion</h1>
+            <div class="conversion-target">
+                2
+            </div>
+
+            <div class="input">
+                <div>
+                    <label for="number"> valeur: :</label>
+                    <input type="number" name="number" id="number-input" placeholder="20" min="0" max="10000" step="1"/>
+                </div>
+                <button onclick="inputConversion()"> Conversion</button>
+            </div>
+        </section>
+
+
+        <section class="result-container">
+            <div class="conversion">
+                <h2>Length (meter/feet)</h2>
+                <p> <span id="length-meter-conversion"> 20</span> meters = <span id="length-meter-result"> 65.616 </span> feet  |  <span id="length-feet-conversion"> 20</span> feet = <span id="length-feet-result"> 6.096 </span> meters </p>
+            </div>
+
+            <div class="conversion">
+                <h2>Volume (liters/gallons)</h2>
+                <p> <span id="volume-liters-conversion"> 20</span> liters = <span id="volume-liters-result"> 5.280  </span> gallons  |  <span id="volume-gallons-conversion"> 20</span> gallons = <span id="volume-gallons-result"> 75.760 </span> meters </p>
+            </div>
+
+            <div class="conversion">
+                <h2>Mass(kilograms/pounds)</h2>
+                <p> <span id="mass-kilo-conversion"> 20</span> kilo = <span id="mass-kilo-result"> 44.092 </span> pounds  |  <span id="mass-pounds-conversion"> 20</span> pounds = <span id="mass-pounds-result"> 9.072 </span> kilo </p>
+            </div>
+
+
+            <div class="conversion">
+                <h2>temperature(Celsius/Fahrenheit)</h2>
+                <p> <span id="temperature-celsius-conversion"> 20</span> °C = <span id="temperature-celsius-result"> 68 </span> °F  |  <span id="temperature-fahrenheit-conversion"> 20</span> °F = <span id="temperature-fahrenheit-result"> -6.67 </span> °C </p>
+            </div>
+
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
